@@ -1,0 +1,51 @@
+.userInfo {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 20px;
+
+  li {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+    p {
+      font-size: 14px;
+      color: #27327F;
+    }
+  }
+}
+
+.editUser {
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 20px;
+    width: 30px;
+  }
+
+  &:hover {
+    color: #4f5ec9;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .userInfo {
+    margin-bottom: 20px;
+
+    li {
+      grid-template-columns: 150px 1fr;
+    }
+  }
+
+  .editUser {
+    margin-bottom: 20px;
+
+    img {
+      margin-left: 10px;
+      width: 20px;
+    }
+  }
+}
