@@ -72,7 +72,7 @@ export default function UserInfo() {
 
           <Link to={`/user/${params.userId}/edit`} className={"editUser"}>
             Edit user info
-            <img src="/edit.png" alt="Edit user info" />
+            <img src="edit.png" alt="Edit user info" />
           </Link>
 
           <DeleteButton handleClick={() => deleteUser(user.id)} />
