@@ -2,7 +2,7 @@
 
 DEMO: [LINK](https://karinakudatska.github.io/users-management/)
 
-CODE: [LINK](https://github.com/karinaKudatska/users_management)
+CODE: [LINK](https://github.com/karinaKudatska/users-management)
 
 ## Available Scripts
 
